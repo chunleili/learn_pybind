@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "my cmake build",
+            "type": "shell",
+            "command": "cmake -B build ; cmake --build build --config=Release",
+            "problemMatcher": [
+                "$msCompile"
+            ]
+        }
+    ]
+   }
